@@ -23,7 +23,7 @@ var context = new AudioContext(),
     oscillators = {};
 
   if(navigator.requestMIDIAccess !== undefined){
-    navigator.requestMIDIAccess({sysex: true}).then(
+    navigator.requestMIDIAccess().then(
 
       function onFulfilled(access){
         midiAccess = access;
