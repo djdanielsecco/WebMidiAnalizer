@@ -1,0 +1,84 @@
+html,
+body {
+    background-color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: aliceblue;
+    line-height: 18px;
+    padding: 10px;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-bottom: 7px;
+    margin: 15px;
+	align-content: center;
+	text-align: center;
+}
+
+
+#log2, #log3, #log4, #log5, #log6, #log7, #log, #log1 {
+    border: 2px solid #BBB;
+    width: 200px;
+    min-height: 30px;
+    max-height: 150px;
+    overflow: auto;
+    margin: 15px;
+	float: left;
+}
+
+#container {
+
+    width: 100%;
+}
+
+#container > div {
+
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#container1, #container12 {
+    width: 100%;
+}
+
+#container1, > div {
+
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+}
+.contaniner2{
+	width: 50%;
+	height: 30px;
+	border: 2px solid #FFF;
+    float: center;
+    margin: 15px;
+	
+}
+#inputs {
+    border: 2px solid #FFF;
+    float: left;
+    margin: 15px;
+}
+
+#outputs {
+    border: 2px solid #FFF;
+    float: left;
+    margin: 15px;
+}
+
+/*clearfix*/
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
